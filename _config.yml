@@ -1,0 +1,57 @@
+# Site settings
+title: Alexandre Russel
+description: >-
+  Software engineer exploring blockchain, Solana, and decentralized systems.
+  Writing about building real projects and lessons learned.
+author:
+  name: Alexandre Russel
+  email: alexandre@russel.dev
+
+# URL settings
+url: "https://arussel.github.io"
+baseurl: ""
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Minima theme settings
+minima:
+  skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/arussel" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/alexandrerussel" }
+
+# SEO settings
+twitter:
+  username: arussel
+  card: summary
+
+# Post settings
+show_excerpts: true
+permalink: /blog/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Alexandre Russel"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
