@@ -6,8 +6,7 @@ description: "How I built KYORO token with metadata, TypeScript tooling, and a c
 tags: [solana, blockchain, cryptocurrency, typescript, web3]
 ---
 
-*How I built KYORO token with metadata, TypeScript tooling, and a cat mascot - for under $0.02*
-
+How I built KYORO token with metadata, TypeScript tooling, and a cat mascot - for under $0.02
 Creating your own cryptocurrency sounds intimidating, but on Solana, it's surprisingly straightforward and affordable. This is the story of how I created KYORO, a utility token that will power my Open-Lotto gaming protocol, complete with custom metadata and a personal touch.
 
 ## Why Create KYORO?
